@@ -4,7 +4,7 @@ import {
   IncrementAction,
   selectCounter,
   useAppSelector,
-} from "./store";
+} from "../../store";
 import { useDispatch } from "react-redux";
 
 export function Counters() {
